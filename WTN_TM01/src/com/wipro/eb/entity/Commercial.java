@@ -11,7 +11,7 @@ public class Commercial extends Connection{
 	{
 		int read=currentReading-previousReading;
 		float amount;
-		float ans;
+		float ans = 0;
 		if(read>50)
 		{
 		  amount=(read-50)*slabs[0];
